@@ -32,6 +32,7 @@ if (!isProduction) {
 }
 
 //Configure Mongoose
+//@TODO-hamza218 move this to a db.js file in the config folder
 mongoose.connect('mongodb://127.0.0.1:27017/animeBackEnd');
 mongoose.set('debug', true);
 
